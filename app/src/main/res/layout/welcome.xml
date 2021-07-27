@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginSuccessView"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"/>
+    <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/design_default_color_on_secondary"
+            android:text="Log Out" />
+
+    <TextView android:id="@+id/mapLink"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginLeft="10dp"
+              android:text="View map &amp; Current location"
+              android:gravity="center"
+              android:textSize="22dp"
+              android:textColor="#3F51B5"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+    <TextView android:id="@+id/menusLink"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginLeft="10dp"
+              android:text="All Menus for App"
+              android:gravity="center"
+              android:textSize="22dp"
+              android:textColor="#3F51B5"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+    <TextView android:id="@+id/bookNowLink"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginLeft="10dp"
+              android:text="Start Booking"
+              android:gravity="center"
+              android:textSize="22dp"
+              android:textColor="#3F51B5"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+    <TextView android:id="@+id/captureLink"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginLeft="10dp"
+              android:text="Capture Image using Camera"
+              android:gravity="center"
+              android:textSize="22dp"
+              android:textColor="#3F51B5"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Copyright 2021 | Virunga Express"
+            android:textSize="14dp"/>
+
+</LinearLayout>

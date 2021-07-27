@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+                  android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  tools:context=".NewBooking">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nbScreen"
+            android:layout_gravity="center"
+            android:layout_margin="14dp"
+            android:textSize="20dp"/>
+
+    <TextView android:id="@+id/mapLink"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginLeft="10dp"
+              android:text="Booked Car: Volcano RAb-458"
+
+              android:gravity="center"
+              android:textSize="16dp"
+              android:textColor="@color/black"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+    <TextView android:id="@+id/bookPrice"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="10dp"
+              android:text="Booking Price: 3600rwf"
+              android:gravity="center"
+              android:textSize="16dp"
+              android:textColor="@color/black"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+    <Button
+            android:id="@+id/linkPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/moon_stone"
+            android:text="Pay now" />
+
+
+</LinearLayout>

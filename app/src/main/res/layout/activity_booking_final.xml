@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".BookingFinalActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finalBooking"
+            android:layout_gravity="center"
+            android:textColor="@color/beifa_blue"
+            android:layout_marginTop="30dp"
+            android:text="Payment's being processed..."
+            android:textSize="20dp"/>
+
+
+    <TextView android:id="@+id/exitFinal"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:text="Back home"
+              android:padding="10dp"
+              android:gravity="center"
+              android:textSize="18dp"
+              android:textColor="@color/teal_200"
+              android:background="@color/black"
+              android:onClick="test" tools:ignore="OnClick"/>
+
+
+</LinearLayout>
